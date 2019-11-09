@@ -129,17 +129,23 @@
     
 <div class="card">
     
+    <div class="card-image">
+        <a href="/2019-11-09-Manacher%E7%AE%97%E6%B3%95%E5%AE%9E%E7%8E%B0%E4%B8%8E%E5%8E%9F%E7%90%86.html" class="image is-7by1">
+            <img class="thumbnail" src="/images/me1.png" alt="Manacher 算法">
+        </a>
+    </div>
+    
     <div class="card-content article ">
         
         <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
             <div class="level-left">
-                <time class="level-item has-text-grey" datetime="2019-11-09T09:09:18.175Z">2019-11-09</time>
+                <time class="level-item has-text-grey" datetime="2019-11-09T09:01:53.000Z">2019-11-09</time>
                 
                 
                 <span class="level-item has-text-grey">
                     
                     
-                    3 分钟 读完 (大约 491 个字)
+                    3 分钟 读完 (大约 488 个字)
                 </span>
                 
                 
@@ -148,11 +154,11 @@
         
         <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
             
-                <a class="has-link-black-ter" href="/2019-11-09-Manacher%E7%AE%97%E6%B3%95%E5%AE%9E%E7%8E%B0%E4%B8%8E%E5%8E%9F%E7%90%86.html">Manacher算法实现与原理</a>
+                <a class="has-link-black-ter" href="/2019-11-09-Manacher%E7%AE%97%E6%B3%95%E5%AE%9E%E7%8E%B0%E4%B8%8E%E5%8E%9F%E7%90%86.html">Manacher 算法</a>
             
         </h1>
         <div class="content">
-            <h1 id="Manacher-算法"><a href="#Manacher-算法" class="headerlink" title="Manacher 算法"></a>Manacher 算法</h1><p>Manacher（马拉车） 算法，字符串匹配算法的一种。一般用于求最长回文子串。应用范围较窄。</p>
+            <p>Manacher（马拉车） 算法，字符串匹配算法的一种。一般用于求最长回文子串。应用范围较窄。</p>
 <h2 id="算法例题"><a href="#算法例题" class="headerlink" title="算法例题"></a>算法例题</h2><h3 id="力扣-5-最长回文子串"><a href="#力扣-5-最长回文子串" class="headerlink" title="力扣 5.最长回文子串"></a><a href="https://leetcode-cn.com/problems/longest-palindromic-substring/" target="_blank" rel="noopener">力扣 5.最长回文子串</a></h3><p>给定一个字符串 s，找到 s 中最长的回文子串。你可以假设 s 的最大长度为 1000。</p>
 <h4 id="示例-1"><a href="#示例-1" class="headerlink" title="示例 1"></a>示例 1</h4><p>输入： “babad”<br>输出： “bad”<br>注意： “aba” 也是一个有效答案。</p>
 <h4 id="示例-2"><a href="#示例-2" class="headerlink" title="示例 2"></a>示例 2</h4><p>输入： “cbbd”<br>输出： “bb”</p>
@@ -170,48 +176,6 @@
 <h3 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h3><p>辅助数组的构造，运用中心扩散法，计算字符串 s 中，回文字符串的长度<br>既以在数组 i 位置的元素为中心，计算 i+1 位置的元素和 i-1 位置的元素是否相等，若相等则计算 i+2 于 i-2<br>更改之后的数组 | $ | b | # | a | # | b | # | a | # | d | $ |<br>  数组下标为   | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |<br>辅助数组的元素 | 0 | 1 | 0 | 3 | 0 | 3 | 0 | 1 | 0 | 1 | 0 |</p>
 <h3 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h3><p>由辅助数组得出最大的回文子串是下标为3和下标为5的两个元素</p>
 <h2 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h2><p>哦</p>
-
-        </div>
-        
-        
-        
-    </div>
-</div>
-
-
-
-
-
-
-
-
-    
-<div class="card">
-    
-    <div class="card-content article ">
-        
-        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
-            <div class="level-left">
-                <time class="level-item has-text-grey" datetime="2019-11-02T02:24:53.000Z">2019-11-02</time>
-                
-                
-                <span class="level-item has-text-grey">
-                    
-                    
-                    几秒 读完 (大约 17 个字)
-                </span>
-                
-                
-            </div>
-        </div>
-        
-        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
-            
-                <a class="has-link-black-ter" href="/2019-11-02-%E6%9D%8E%E4%BA%9A%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0.html">李亚测试文章</a>
-            
-        </h1>
-        <div class="content">
-            <p>这是一篇测试文章，欢迎关注作者博客  </p>
 
         </div>
         
@@ -271,7 +235,7 @@
                         文章
                     </p>
                     <p class="title has-text-weight-normal">
-                        2
+                        1
                     </p>
                 </div>
             </div>
@@ -417,33 +381,14 @@
             
             <a href="/2019-11-09-Manacher%E7%AE%97%E6%B3%95%E5%AE%9E%E7%8E%B0%E4%B8%8E%E5%8E%9F%E7%90%86.html" class="media-left">
                 <p class="image is-64x64">
-                    <img class="thumbnail" src="/images/thumbnail.svg" alt="Manacher算法实现与原理">
+                    <img class="thumbnail" src="/images/me1.png" alt="Manacher 算法">
                 </p>
             </a>
             
             <div class="media-content">
                 <div class="content">
-                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-11-09T09:09:18.175Z">2019-11-09</time></div>
-                    <a href="/2019-11-09-Manacher%E7%AE%97%E6%B3%95%E5%AE%9E%E7%8E%B0%E4%B8%8E%E5%8E%9F%E7%90%86.html" class="title has-link-black-ter is-size-6 has-text-weight-normal">Manacher算法实现与原理</a>
-                    <p class="is-size-7 is-uppercase">
-                        
-                    </p>
-                </div>
-            </div>
-        </article>
-        
-        <article class="media">
-            
-            <a href="/2019-11-02-%E6%9D%8E%E4%BA%9A%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0.html" class="media-left">
-                <p class="image is-64x64">
-                    <img class="thumbnail" src="/images/thumbnail.svg" alt="李亚测试文章">
-                </p>
-            </a>
-            
-            <div class="media-content">
-                <div class="content">
-                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-11-02T02:24:53.000Z">2019-11-02</time></div>
-                    <a href="/2019-11-02-%E6%9D%8E%E4%BA%9A%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0.html" class="title has-link-black-ter is-size-6 has-text-weight-normal">李亚测试文章</a>
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-11-09T09:01:53.000Z">2019-11-09</time></div>
+                    <a href="/2019-11-09-Manacher%E7%AE%97%E6%B3%95%E5%AE%9E%E7%8E%B0%E4%B8%8E%E5%8E%9F%E7%90%86.html" class="title has-link-black-ter is-size-6 has-text-weight-normal">Manacher 算法</a>
                     <p class="is-size-7 is-uppercase">
                         
                     </p>
@@ -464,7 +409,7 @@
         <h3 class="menu-label">
             标签云
         </h3>
-        <a href="/tags/%E6%B5%8B%E8%AF%95/" style="font-size: 10px;">测试</a>
+        <a href="/tags/%E7%AE%97%E6%B3%95/" style="font-size: 10px;">算法</a>
     </div>
 </div>
         
@@ -482,7 +427,7 @@
                     <span class="level-item">十一月 2019</span>
                 </span>
                 <span class="level-end">
-                    <span class="level-item tag">2</span>
+                    <span class="level-item tag">1</span>
                 </span>
             </a>
         </li>
@@ -501,8 +446,8 @@
             <div class="field is-grouped is-grouped-multiline">
                 
                 <div class="control">
-                    <a class="tags has-addons" href="/tags/%E6%B5%8B%E8%AF%95/">
-                        <span class="tag">测试</span>
+                    <a class="tags has-addons" href="/tags/%E7%AE%97%E6%B3%95/">
+                        <span class="tag">算法</span>
                         <span class="tag is-grey">1</span>
                     </a>
                 </div>
@@ -530,7 +475,7 @@
         <h3 class="menu-label">
             标签云
         </h3>
-        <a href="/tags/%E6%B5%8B%E8%AF%95/" style="font-size: 10px;">测试</a>
+        <a href="/tags/%E7%AE%97%E6%B3%95/" style="font-size: 10px;">算法</a>
     </div>
 </div>
     
@@ -548,7 +493,7 @@
                     <span class="level-item">十一月 2019</span>
                 </span>
                 <span class="level-end">
-                    <span class="level-item tag">2</span>
+                    <span class="level-item tag">1</span>
                 </span>
             </a>
         </li>
@@ -567,8 +512,8 @@
             <div class="field is-grouped is-grouped-multiline">
                 
                 <div class="control">
-                    <a class="tags has-addons" href="/tags/%E6%B5%8B%E8%AF%95/">
-                        <span class="tag">测试</span>
+                    <a class="tags has-addons" href="/tags/%E7%AE%97%E6%B3%95/">
+                        <span class="tag">算法</span>
                         <span class="tag is-grey">1</span>
                     </a>
                 </div>
