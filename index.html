@@ -145,7 +145,7 @@
                 <span class="level-item has-text-grey">
                     
                     
-                    3 分钟 读完 (大约 488 个字)
+                    3 分钟 读完 (大约 489 个字)
                 </span>
                 
                 
@@ -159,26 +159,16 @@
         </h1>
         <div class="content">
             <p>Manacher（马拉车） 算法，字符串匹配算法的一种。一般用于求最长回文子串。应用范围较窄。</p>
-<h2 id="算法例题"><a href="#算法例题" class="headerlink" title="算法例题"></a>算法例题</h2><h3 id="力扣-5-最长回文子串"><a href="#力扣-5-最长回文子串" class="headerlink" title="力扣 5.最长回文子串"></a><a href="https://leetcode-cn.com/problems/longest-palindromic-substring/" target="_blank" rel="noopener">力扣 5.最长回文子串</a></h3><p>给定一个字符串 s，找到 s 中最长的回文子串。你可以假设 s 的最大长度为 1000。</p>
-<h4 id="示例-1"><a href="#示例-1" class="headerlink" title="示例 1"></a>示例 1</h4><p>输入： “babad”<br>输出： “bad”<br>注意： “aba” 也是一个有效答案。</p>
-<h4 id="示例-2"><a href="#示例-2" class="headerlink" title="示例 2"></a>示例 2</h4><p>输入： “cbbd”<br>输出： “bb”</p>
-<hr>
-<h2 id="算法原理及实现"><a href="#算法原理及实现" class="headerlink" title="算法原理及实现"></a>算法原理及实现</h2><ul>
-<li>Manacher 算法第一步：对原字符串 s 进行处理</li>
-<li>Manacher 算法第二步：构造辅助数组</li>
-<li>Manacher 算法第三步：根据辅助数组得出最长回文子串的下标元素长度等各项所需属性</li>
-</ul>
-<h3 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h3><p>由于字符串 s 元素个数可能为奇数也可能为偶数，所以首先对原字符串 s 进行处理。在原字符串 s 中每两个相邻的之间加入一个间隔字符 “#” 并在字符串开头和结尾加入 “$” 间隔字符。<br>— |— |— |— |— |— |— |— |— |— |— |<br>原数组   |   | b |   | a |   | b |   | a |   | d |   |<br>更改之后 | $ | b | # | a | # | b | # | a | # | d | $ |</p>
-<ol>
-<li>由此得出的字符串 s 一点是奇数个元素。</li>
-<li>间隔字符无固定要求，只需于字符串元素无关即可。</li>
-</ol>
-<h3 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h3><p>辅助数组的构造，运用中心扩散法，计算字符串 s 中，回文字符串的长度<br>既以在数组 i 位置的元素为中心，计算 i+1 位置的元素和 i-1 位置的元素是否相等，若相等则计算 i+2 于 i-2<br>更改之后的数组 | $ | b | # | a | # | b | # | a | # | d | $ |<br>  数组下标为   | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |<br>辅助数组的元素 | 0 | 1 | 0 | 3 | 0 | 3 | 0 | 1 | 0 | 1 | 0 |</p>
-<h3 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h3><p>由辅助数组得出最大的回文子串是下标为3和下标为5的两个元素</p>
-<h2 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h2><p>哦</p>
-
         </div>
         
+        
+        <div class="level is-mobile">
+            <div class="level-start">
+                <div class="level-item">
+                <a class="button is-size-7 is-light" href="/2019-11-09-Manacher%E7%AE%97%E6%B3%95%E5%AE%9E%E7%8E%B0%E4%B8%8E%E5%8E%9F%E7%90%86.html#more">阅读更多</a>
+                </div>
+            </div>
+        </div>
         
         
     </div>
